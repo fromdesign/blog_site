@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Bentham|Libre+Baskerville:400i|PT+Serif:400,400i');
+/*
+font-family: 'Bentham', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'PT Serif', serif;
+*/
+
+/* ------------- LAYOUT ----------- */
+
+.container {
+	width: 660px;
+	margin: 0 auto;
+}
+
+header,
+footer {
+	text-align: center;
+}
+
+/* ------------- TYPOGRAPHY ----------- */
+
+body {
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+}
+
+header h1 {
+	font-family: 'Bentham', serif;
+	font-size: 30px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
+header h2 {
+	font-family: 'Bentham', serif;
+	font-size: 60px;
+	line-height: 72px;
+}
+
+header h2 span {
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+/* ------------- HEADER ----------- */
+
+header {
+	height: 600px;
+	background: url(../images/header_bg.jpg) no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+
+header h1 {
+	border: 1px solid #fff;
+	display: inline-block;
+	height: 53px;
+	padding: 0 29px;
+	line-height: 53px;
+	box-sizing: border-box;
+}
+
+header h1 a {
+	color: #fff;
+}
+
+header h2 {
+	line-height: 72px;
+	margin: 123px auto 20px;
+}
+
+header h3 {
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+/* ------------- CONTENT SECTION ----------- */
+
+section {
+	padding: 110px 0;
+}
+
+section h2 {
+	font: 42px/49px 'Bentham', serif;
+	color: #444;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+section h3 {
+	font: 14px/1 'PT Serif', serif;
+	color: #444;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section p {
+	font-size: 18px;
+	line-height: 34px;
+	color: #6f6f6f;
+	margin-bottom: 32px;
+}
+
+section p:last-of-type {
+	margin-bottom: 49px;
+}
+
+
+section p em {
+	color: #e3514e;
+}
+
+section ul {
+	border: 1px solid #838383;
+}
+
+section ul li {
+	float: left;
+	height: 52px;
+	line-height: 52px;
+	width: 25%;
+	text-align: center;
+	border-right: 1px solid #838383;
+	box-sizing: border-box;
+	color: #555;
+}
+
+section ul li a {
+	color: #555;
+}
+
+section ul li:hover {
+	background: #e3514e;
+}
+
+section ul li:hover a {
+	color: #fff;
+}
+
+section ul li:first-child:hover {
+	background: none;
+}
+
+section ul li:last-child {
+	border-right: 0;
+}
+
+
+/* ------------- FOOTER ----------- */
+
+footer p {
+	text-align: center;
+	font: 12px/66px 'PT Serif', serif;
+	color: #fff;
+	background: #555;
+}
