@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Bentham|Libre+Baskerville:400i|PT+Serif:400,400i');
-/*
-font-family: 'Bentham', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'PT Serif', serif;
-*/
 
 /* ------------- LAYOUT ----------- */
 
 .container {
 	width: 660px;
 	margin: 0 auto;
-}
-
-header,
-footer {
-	text-align: center;
 }
 
 /* ------------- TYPOGRAPHY ----------- */
@@ -26,15 +16,19 @@ body {
 
 header h1 {
 	font-family: 'Bentham', serif;
-	font-size: 30px;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
+	/*
+	폰트크기 30px
+	자간 0.12em
+	대문자
+	*/
 }
 
 header h2 {
 	font-family: 'Bentham', serif;
-	font-size: 60px;
-	line-height: 72px;
+	/*
+	폰트크기 60px
+	행간 72px
+	*/
 }
 
 header h2 span {
@@ -45,120 +39,119 @@ header h2 span {
 /* ------------- HEADER ----------- */
 
 header {
-	height: 600px;
-	background: url(../images/header_bg.jpg) no-repeat center center;
-	background-size: cover;
-	color: #fff;
-	padding-top: 60px;
-	box-sizing: border-box;
+	/*
+	높이 600px
+	배경 이미지 header_bg.jpg
+	    반복 없음
+	    포지션 center center
+	글자색 하얗게
+	윗여백 60px (높이에 영향 없도록)
+	*/
 }
 
 header h1 {
-	border: 1px solid #fff;
-	display: inline-block;
-	height: 53px;
-	padding: 0 29px;
-	line-height: 53px;
-	box-sizing: border-box;
-}
-
-header h1 a {
-	color: #fff;
+	/*
+	테두리 1px 하얗게 (높이 영향 없도록)
+	행간 / 높이 53px
+	좌우 여백 30px
+	글자색 하얗게
+	*/
 }
 
 header h2 {
-	line-height: 72px;
-	margin: 123px auto 20px;
+	/*
+	행간 72px
+	윗 마진 120px
+	아랫 마진 20px
+	*/
 }
 
 header h3 {
-	font-family: 'PT Serif', serif;
-	font-size: 20px;
-	font-style: italic;
+	/*
+	폰트 크기 20px, 기울임체, 'PT Serif', serif
+	*/
 }
 
 
 /* ------------- CONTENT SECTION ----------- */
 
 section {
-	padding: 110px 0;
+	/*
+	위 아래 여백 110px
+	*/
 }
 
 section h2 {
-	font: 42px/49px 'Bentham', serif;
-	color: #444;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 28px;
+	/*
+	폰트 크기 42px 행간 49px 'Bentham', serif
+	글자색 #444
+	자간 0.08em
+	아래 마진 30px
+	*/
 }
 
 section h3 {
-	font: 14px/1 'PT Serif', serif;
-	color: #444;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 50px;
+	/*
+	폰트 크기 14px 행간 14px 'PT Serif', serif
+	글자색 #444
+	자간 0.08em
+	아래 마진 50px
+	*/
 }
 
 section p {
-	font-size: 18px;
-	line-height: 34px;
-	color: #6f6f6f;
-	margin-bottom: 32px;
+	/*
+	폰트 크기 18px
+	행간 34px
+	글자색 #6f6f6f
+	아래 마진 32px
+	*/
 }
-
-section p:last-of-type {
-	margin-bottom: 49px;
-}
-
 
 section p em {
-	color: #e3514e;
+	/*
+	글자색 #e3514e
+	*/
 }
 
 section ul {
-	border: 1px solid #838383;
+	/*
+	테두리 1px #838383
+	*/
 }
 
 section ul li {
-	float: left;
-	height: 52px;
-	line-height: 52px;
-	width: 25%;
-	text-align: center;
-	border-right: 1px solid #838383;
-	box-sizing: border-box;
-	color: #555;
+	/*
+	높이 52px (높이 고정)
+	너비 1/4
+	글자색 #555
+	*/
 }
 
 section ul li a {
-	color: #555;
+	/*
+	글자색 #555
+	*/
 }
 
 section ul li:hover {
-	background: #e3514e;
+	/*
+	배경색 #e3514e
+	*/
 }
 
 section ul li:hover a {
-	color: #fff;
-}
-
-section ul li:first-child:hover {
-	background: none;
-}
-
-section ul li:last-child {
-	border-right: 0;
+	/*
+	글자색 하얗게
+	*/
 }
 
 
 /* ------------- FOOTER ----------- */
 
 footer p {
-	text-align: center;
-	font: 12px/66px 'PT Serif', serif;
-	color: #fff;
-	background: #555;
+	/*
+	배경색 #555
+	글자 크기 12px 행간 66px 'PT Serif', serif
+	*/
 }
